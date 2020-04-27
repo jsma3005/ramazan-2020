@@ -446,26 +446,28 @@ select {
 }
 
 @media screen and (max-width: 991px){
-    .calendar-block{
+/*     .calendar-block{
         display: grid !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: 1fr !important;
-    }
+    } */
     .box1{
-        padding-bottom: 50px;
+/*         padding-bottom: 50px;
         border-bottom: 2px solid rgba(0,0,0,0.7);
-        border-radius: 30px;
+        border-radius: 30px; */
+	    margin-bottom: 25px;
     }
     .box3{
-        grid-row: 2 / 3;
+/*         grid-row: 2 / 3;
         padding-top: 50px;
         border-top: 2px solid rgba(0,0,0,0.7);
         border-radius: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 50px; */
+    	margin-top: 25px;
     }
-    .box2{
+/*     .box2{
         grid-row: 3 / 4;
-    }
+    } */
 }
 
 @media screen and (max-width: 985px){
